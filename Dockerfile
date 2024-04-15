@@ -1,6 +1,6 @@
 FROM alpine:3.12
 
-RUN apk --update add git-crypt git-lfs
+RUN apk --update add git git-crypt git-lfs
 
 WORKDIR /opt/project
 
